@@ -2,6 +2,7 @@
   "files.associations": {
     "math.h": "c",
     "stdio.h": "c",
-    "CREDIT.C": "cpp"
+    "CREDIT.C": "cpp",
+    "cs50.h": "c"
   }
 }
