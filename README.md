@@ -8,3 +8,9 @@ We welcome any material old or new that will help the current students prepare.
 CS 500 at Harvard University
 
 [![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/cwtpLIWylAw/hq720.jpg)](https://www.youtube.com/watch?v=3LPJfIKxwWc&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4&index=1)
+
+# Installation
+https://github.com/cs50/libcs50
+
+# Library C Documentation
+https://manual.cs50.io/
