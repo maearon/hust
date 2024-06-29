@@ -1,0 +1,31 @@
+What is computer science? Input->|_|->Output
+Unary -> i.e. counting one finger at a time
+Binary -> from binary digit 'bit' aka zeros and ones that represent on and off
+
+Computers use base-2 to count, i.e.
+2^2  2^1  2^0
+4    2    1
+
+8 bits are in a byte
+maximum is 256 bits if you include zero
+
+Bits can be mapped, i.e. numbers to letters with ASCII. 
+
+Unicode standards expanded the number of bits that can be trasnmitted and understood by computers.
+
+RGB is a combination of all three numbers
+Images are a collection of RGB
+Videos are sequences of images stored together
+Music can be represented as MIDI
+
+Abstraction - focusing on higher level processes
+
+Algorithms - a list set of instructions to solve problems or perform tasks, based on the understanding of available alternatives
+
+pseudocode - human readable version of code
+it uses verbs (functions)
+it uses statements like if, else if (conditionals)
+True or False (boolean expressions)
+it uses cycles (loops)
+
+Scratch - visual programming language developed at MIT

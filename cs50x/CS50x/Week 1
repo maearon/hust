@@ -1,0 +1,110 @@
+Source code - what human programmers write
+Compiler - translates source code into machine code
+
+Code Descriptions
+correctness - does the code run as intended?
+Design - how well is the code designed?
+Style - how aesthetically pleasing is the code?
+
+code.cs50.io - to access visual studio
+
+---------------------------------------
+// create script called hello.c
+code hello.c
+
+//make script executable
+make hello
+
+//compile code
+./hello
+---------------Example Script ---------------
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+----------------------------------------
+// load header library
+#include <stdio.h>
+
+int main(void)
+{
+}
+
+printf("hello, world\n");
+//printf(const char *format,...) sends formatted output to stdout
+//Requires quotation marks for string
+// /n terminates the line
+//semicolon is an end statement to terminate the current statement
+
+---------------------------------------
+cs50 has its own library ==> cs50.h
+
+Manual ==> manual.cs50.io
+
+---------------------------------------
+//Create a function that asks your names and outputs your name as a response
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    string name = get_string("What's your name? ");
+    printf("hello, %s\n", name);
+}
+
+-------Comparing integer variables----------
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int x = get_int("What's x? ");
+    int y = get_int("What's y? ");
+
+    if (x < y)
+    {
+        printf("x is less than y\n");
+    }
+    else if (x > y)
+    {
+        printf("x is greater than y\n");
+    }
+    else
+    {
+        printf("x is EQUAL to y\n");
+    }
+}
+
+------- Loops ---------
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 0;
+    while (i < 3)
+    {
+        printf("meow\n");
+        i++;
+    }
+}
+
+
+------- Further simplified ---------
+#include <stdio.h>
+
+int main(void)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        printf("meow\n");
+    }
+}
+--------> for loop. Load integer 'i' to zero. check if it's less than three. increment i and repeat. First part before the semicolon only cycles once. 
+
+
+
+
+
+
