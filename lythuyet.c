@@ -1,5 +1,7 @@
 // https://manual.cs50.io/
 
+// https://www.geeksforgeeks.org/format-specifiers-in-c/
+
 // sudo apt update
 // sudo apt install gcc
 // gcc 4.1.c -o 4.1
