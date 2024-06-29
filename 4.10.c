@@ -3,23 +3,23 @@
 #include <math.h>
 
 int main() {
-    double x;
+    float x;
     int n;
-    scanf("%lf%d", &x, &n);
+    scanf("%f%d", &x, &n);
 
     if (x < 0 || n < 1) {
         printf("Error\n");
         return 1;
     }
 
-    double S = 1.0; // Initialize S with the first term of the series which is 1
-    double term = x; // The current term, starting with x
+    float S = 1.0; // Initialize S with the first term of the series which is 1
+    float term = x; // The current term, starting with x
 
     for (int i = 1; i <= n; i++) {
         S += term / i; // Add the current term divided by its position
         term *= x; // Update term to the next power of x (x^i for the next iteration)
     }
 
-    printf("%.4lf\n", S);
+    printf("%.4f\n", S);
     return 0;
 }
